@@ -4,65 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jana Mei's Portfolio</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./styles.css">
+
+    <!-- LOAD FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- NAVBAR -->
     <div class="navbar">
-        <img class="navbar-logo" src="#" alt="logo">
-        <h1 class="navbar-title">Portfolio</h1>
-    </div>
-
-    <div class="feature" id="feature">
-        <img class="feature-img" src="#" alt="featured photo">
-        <div class="feature-text">
-            <h3 class="feature-header">Autobiography</h3>
-            <p class="feature-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="navbar-left">
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+        </div>
+        <img class="navbar-logo" src="./assets/logo.png" alt="logo">
+        <div class="navbar-right">
+            <a href="mailto:jmlascano@up.edu.ph">Contact</a> <!--allows user to send message to my email directly, https://www.geeksforgeeks.org/how-to-use-mailto-in-html/ -->
         </div>
     </div>
 
-    <div class="projects">
-        <div id="project-1" class="project">
-            <h3 class="project-head">Project 1</h3>
-            <p class="project-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!-- MAINBODY -->
+    <div class="main">
+        <!-- FEATURE -->
+        <div class="feature">
+            <img src="./assets/feature-img.png" alt="feature image">
+            <h1>About Me</h1>
+            <p>Hi! My name is Jana Mei Clarice M. Lascano, a BS Computer Science student studying in the University of the Philippines - Los Banos. Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. Aenean sit amet purus eu odio posuere condimentum. Suspendisse ac risus purus. Nulla eget tellus pellentesque, pulvinar arcu efficitur, 
+                vehicula lorem. Ut blandit feugiat leo, id sollicitudin orci consequat tristique. </p>
         </div>
-        <div id="project-2" class="project">
-            <h3 class="project-head">Project 2</h3>
-            <p class="project-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div id="project-3" class="project">
-            <h3 class="project-head">Project 3</h3>
-            <p class="project-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-    </div>
 
-    <div class="footer">
-        <img class="footer-logo" src="#" alt="logo">
-        <div class="footer-content">
-            <p class="address">Address: Las Pinas City, Metro Manila</p>
-            <p class="contact-info">Contact Information: 09989572088</p>
-            <p class="copyright-info">Copyight Information: lorem ipsum</p>
-            <a class="back-to-top" href="#feature">Back to Top</a>
-        </div>
+
+
     </div>
+    
 </body>
 </html>
