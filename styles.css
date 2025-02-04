@@ -4,6 +4,10 @@
 	color: black;
 }
 
+html {
+	scroll-behavior: smooth; /* smooth scrolling when clicking an href that will scroll https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior */
+}
+
 body {
 	background-color: #FFFFFF;
 }
