@@ -42,6 +42,7 @@ body {
 
 .navbar-left a:hover, .navbar-right a:hover {
 	color: #DE3163;
+	transition: color 0.3s ease;
 } 
 
 .navbar img {
@@ -214,6 +215,16 @@ body {
 	height: 300px;
 }
 
+#proj-1 img:hover {
+	filter: drop-shadow(5px 5px 25px #FFEDFA);
+	transition: 0.5s ease;
+}
+
+#proj-2 img:hover {
+	filter: drop-shadow(5px 5px 25px #537053);
+	transition: 0.5s ease;
+}
+
 .project-content {
 	display: flex;
 	flex-direction: column;
@@ -226,6 +237,16 @@ body {
   	font-size: 36px;
   	font-weight: bold;
   	font-style: italic;
+}
+
+.project-content a {
+	text-decoration: none;
+}
+
+.project-content a:hover {
+	text-decoration: none;
+	color: #537053;
+	transition: color 0.3s ease;
 }
 
 .project-content p {
@@ -394,6 +415,7 @@ body {
 
 .top:hover {
 	color: #CCDF92;
+	transition: color 0.3s ease;
 }
 
 @media (max-width: 550px) {
@@ -426,12 +448,18 @@ body {
 .footer-content p {
 	font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
   	font-size: 14px;
+	color: #DE3163;
+}
+
+.footer-content em {
+	color: #DE3163;
 }
 
 .footer > p {
 	font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
   	font-size: 14px;
 	padding-right: 10px;
+	color: #DE3163;
 }
 
 /* footer: dynamic sizing */
@@ -459,4 +487,19 @@ body {
 		font-size: 10px;
 		padding-right: 10px;
 	}
+}
+
+/* ANIMATIONS */
+/* reference: https://www.w3schools.com/css/css3_animations.asp */
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+body {
+	animation: fadeIn 1s ease-out; 
 }
