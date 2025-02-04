@@ -1,4 +1,4 @@
-# Exercise 02: HTML and CSS
+# Exercise 01: HTML and CSS
 
 ## About Me
 - **Name:** Jana Mei Clarice M. Lascano
