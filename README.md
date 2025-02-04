@@ -1,8 +1,8 @@
 # Exercise 02: HTML and CSS
 
 ## About Me
-**Name:** Jana Mei Clarice M. Lascano
-**Degree Program:** BS Computer Science
+- **Name:** Jana Mei Clarice M. Lascano
+- **Degree Program:** BS Computer Science
 
 ## Live Website Link
 https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-jmlascano/
@@ -32,6 +32,6 @@ git push -u origin main
     - After saving, GitHub will provide a link to your live website.
 
 ## Key Takeaways:
-I learn
+I learned that web development takes a long time to do. Designing the site & figuring out what to put first really helps in streamlining the process of coding this site. Even so, it still took hours to create a basic site using HTML & CSS.
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/VhAR7jGx)
