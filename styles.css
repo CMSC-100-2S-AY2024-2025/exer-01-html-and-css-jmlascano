@@ -68,12 +68,27 @@ body {
 
 /* MAINBODY */
 .main {
-	margin: 50px;
+	margin: 150px;
 	margin-top: 125px;
 	margin-bottom: 20px;
 	display: block;
 }
 
+@media (max-width: 1300px) {
+	.main {
+		margin: 75px;
+		margin-top: 125px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	.main {
+		margin: 40px;
+		margin-top: 125px;
+		margin-bottom: 20px;
+	}
+}
 
 /* FEATURE */
 .feature {
